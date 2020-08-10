@@ -1,12 +1,28 @@
+# Real Robot Simulation: Bodensee Team
+
 Cloned from: https://github.com/rr-learning/rrc_simulation
 
 Remote repository is added as upstream branch.
 Pull from Upstream branch via:
 `git pull upstream master`
 
+Install Instructions:
+https://people.tuebingen.mpg.de/felixwidmaier/realrobotchallenge/simulation_phase/installation.html
 
-Real Robot Challenge Simulation
-===============================
+
+
+Please use `git-lfs` (https://git-lfs.github.com/) to commit larger files, e.g. binaries, models etc.
+Please use separate branches, if you make changes to the environment, via 
+`git checkout -b <branch_name>`
+
+and then merge changes back via:
+```
+git checkout master
+git merge <branch_name>
+```
+
+
+### Original Readme
 
 This repository is exclusively intended for participating
 in the [simulation phase of the Real Robot Challenge](https://real-robot-challenge.com/simulation_phase).

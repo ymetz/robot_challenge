@@ -1,3 +1,10 @@
+Cloned from: https://github.com/rr-learning/rrc_simulation
+
+Remote repository is added as upstream branch.
+Pull from Upstream branch via:
+`git pull upstream master`
+
+
 Real Robot Challenge Simulation
 ===============================
 
